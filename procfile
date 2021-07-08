@@ -1,0 +1,2 @@
+web: gunicorn Cryptobank_Django.wsgi --log-file -
+release: python manage.py migrate
